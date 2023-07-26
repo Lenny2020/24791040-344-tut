@@ -11,8 +11,7 @@ public class Greeter {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter your name: ");
-        System.out.println("Hello mister "  + scanner.nextLine());
-    }
+        System.out.println("Hello " + scanner.nextLine());
 
     private static string getName() {
         Scanner scanner = new Scanner(System.in);
